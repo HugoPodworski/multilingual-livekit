@@ -1,7 +1,3 @@
-<a href="https://livekit.io/">
-  <img src="./.github/assets/livekit-mark.png" alt="LiveKit logo" width="100" height="100">
-</a>
-
 # Multilingual AI Voice Agent with LiveKit & Gladia
 
 Welcome! This repository contains the companion code for my video tutorial on building a **multilingual AI voice agent** using [LiveKit Agents](https://docs.livekit.io/agents/) and [Gladia STT](https://www.gladia.io/).
