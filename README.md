@@ -38,7 +38,7 @@ Before you begin, you'll need to get API keys from the following services:
    - Set as `GLADIA_API_KEY` in your `.env.local` file
 
 3. **OpenAI API Key** (optional if using LiveKit Inference)
-   - Required for the LLM (GPT-4)
+   - Required for the LLM
    - Get it from [platform.openai.com](https://platform.openai.com/)
    - Set as `OPENAI_API_KEY` in your `.env.local` file
 
@@ -177,31 +177,7 @@ To add or change languages, modify the `languages` parameter in `src/agent.py`:
 languages=["en", "es", "fr", "de"]  # English, Spanish, French, German
 ```
 
-Check [Gladia's documentation](https://docs.gladia.io/) for all supported languages.
-
-## Frontend & Telephony Integration
-
-This agent works with any LiveKit-compatible frontend or telephony system:
-
-| Platform | Repository | Description |
-|----------|------------|-------------|
-| **Web** | [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) | React & Next.js web app |
-| **iOS/macOS** | [agent-starter-swift](https://github.com/livekit-examples/agent-starter-swift) | Native iOS/macOS/visionOS app |
-| **Android** | [agent-starter-android](https://github.com/livekit-examples/agent-starter-android) | Native Android with Kotlin |
-| **Flutter** | [agent-starter-flutter](https://github.com/livekit-examples/agent-starter-flutter) | Cross-platform Flutter app |
-| **React Native** | [voice-assistant-react-native](https://github.com/livekit-examples/voice-assistant-react-native) | React Native with Expo |
-| **Web Embed** | [agent-starter-embed](https://github.com/livekit-examples/agent-starter-embed) | Embeddable widget |
-| **Telephony** | [📚 Docs](https://docs.livekit.io/agents/start/telephony/) | Inbound/outbound calling |
-
-For advanced customization, see the [complete frontend guide](https://docs.livekit.io/agents/start/frontend/).
-
-## Testing
-
-This project includes a test suite based on LiveKit's [testing & evaluation framework](https://docs.livekit.io/agents/build/testing/):
-
-```bash
-uv run pytest
-```
+Check [Gladia's supported languages](https://docs.gladia.io/chapters/language/supported-languages) for the full list.
 
 ## Project Structure
 
@@ -277,7 +253,7 @@ If you have questions about this code or run into issues:
 1. Check the [LiveKit Agents documentation](https://docs.livekit.io/agents/)
 2. Review [Gladia's documentation](https://docs.gladia.io/)
 3. Open an issue on this repository
-4. Join the [LiveKit Community Slack](https://livekit.io/join-slack)
+4. Ask me directly in my [Voice AI HQ community](https://artiloai.link/skool)
 
 ---
 
